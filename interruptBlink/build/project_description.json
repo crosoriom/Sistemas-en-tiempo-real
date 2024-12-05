@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "interruptBlink",
-    "project_version":    "74d6225",
+    "project_version":    "6cb871b-dirty",
     "project_path":       "C:/Users/criso/Documents/UNAL/SistemasEnTiempoReal/Trabajos/interruptBlink",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.3.1",
     "build_dir":          "C:/Users/criso/Documents/UNAL/SistemasEnTiempoReal/Trabajos/interruptBlink/build",
