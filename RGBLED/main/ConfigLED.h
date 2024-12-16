@@ -27,19 +27,12 @@
 
 adc_oneshot_unit_handle_t adc_handle = NULL;
 
-typedef enum{
-    DinamicColor,
-    StaticColor,
-    StopLight,
-    ColorLoop
-}mode;
-
 static void ledc_init(void) {
     ledc_timer_config_t ledc_timer = {
         .speed_mode       = SPEED_MODE,
         .timer_num        = LEDC_TIMER_0,
         .freq_hz          = PWM_FREC,
-        .duty_resolution  = LEDC_TIMER_8_BIT,
+        .duty_resolution  = LEDC_TIMER_10_BIT,
         .clk_cfg          = LEDC_APB_CLK
     };
     ledc_timer_config(&ledc_timer);
